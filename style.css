@@ -4,4 +4,135 @@ body {
 
 .header {
     display: flex;
+    background: #1F2937;
+    padding: 24px;
+}
+
+.logo {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    padding: 24px;
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    background-color: #1F2937;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.light-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+
+button {
+    flex: 0 0 auto;
+    width: 128px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.sign-1 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+
+}
+
+img {
+    flex: 1 0 auto;
+    height: 300px;
+    width: 800px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    flex: 0 0 auto;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    text-align: center;
+}
+
+.cardbox {
+    flex: 0 0 auto;
+    height:128px;
+    width: 128px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+
+.testimonial {
+    padding: 100px 200px;
+    background: #E5E7EB;
+
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.author {
+    text-align: right;
 }
